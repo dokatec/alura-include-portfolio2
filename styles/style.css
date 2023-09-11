@@ -49,13 +49,13 @@ body {
 }
 
 .apresentacao__conteudo {
-  width: 550px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .apresentacao__conteudo__titulo {
-  font-size: 32px;
+  font-size: 2.25rem;
   font-family: var(--font-primaria);
 }
 .apresentacao__conteudo__texto {
@@ -76,7 +76,7 @@ body {
   font-size: 24px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -85,14 +85,14 @@ body {
   text-align: center;
   border-radius: 8px;
   border: 2px solid var(--cor-terciaria);
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 21.5px 0;
   text-decoration: none;
   color: var(--cor-secundaria);
   font-family: var(--font-secundaria);
   font-weight: 600;
 }
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
   background-color: var(--cor-hover);
 }
 
@@ -102,6 +102,6 @@ body {
   background-color: var(--cor-terciaria);
   text-align: center;
   font-family: var(--font-secundaria);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
